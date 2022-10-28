@@ -53,9 +53,6 @@ class MessageOptions extends \Google\Protobuf\Internal\Message
      */
     protected $deprecated = null;
     /**
-     * NOTE: Do not set the option in .proto files. Always use the maps syntax
-     * instead. The option should only be implicitly set by the proto compiler
-     * parser.
      * Whether the message is an automatically generated map entry type for the
      * maps field.
      * For maps fields:
@@ -71,6 +68,9 @@ class MessageOptions extends \Google\Protobuf\Internal\Message
      * use a native map in the target language to hold the keys and values.
      * The reflection APIs in such implementations still need to work as
      * if the field is a repeated message field.
+     * NOTE: Do not set the option in .proto files. Always use the maps syntax
+     * instead. The option should only be implicitly set by the proto compiler
+     * parser.
      *
      * Generated from protobuf field <code>optional bool map_entry = 7;</code>
      */
@@ -114,9 +114,6 @@ class MessageOptions extends \Google\Protobuf\Internal\Message
      *           for the message, or it will be completely ignored; in the very least,
      *           this is a formalization for deprecating messages.
      *     @type bool $map_entry
-     *           NOTE: Do not set the option in .proto files. Always use the maps syntax
-     *           instead. The option should only be implicitly set by the proto compiler
-     *           parser.
      *           Whether the message is an automatically generated map entry type for the
      *           maps field.
      *           For maps fields:
@@ -132,7 +129,10 @@ class MessageOptions extends \Google\Protobuf\Internal\Message
      *           use a native map in the target language to hold the keys and values.
      *           The reflection APIs in such implementations still need to work as
      *           if the field is a repeated message field.
-     *     @type array<\Google\Protobuf\Internal\UninterpretedOption>|\Google\Protobuf\Internal\RepeatedField $uninterpreted_option
+     *           NOTE: Do not set the option in .proto files. Always use the maps syntax
+     *           instead. The option should only be implicitly set by the proto compiler
+     *           parser.
+     *     @type \Google\Protobuf\Internal\UninterpretedOption[]|\Google\Protobuf\Internal\RepeatedField $uninterpreted_option
      *           The parser stores options it doesn't recognize here. See above.
      * }
      */
@@ -288,9 +288,6 @@ class MessageOptions extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * NOTE: Do not set the option in .proto files. Always use the maps syntax
-     * instead. The option should only be implicitly set by the proto compiler
-     * parser.
      * Whether the message is an automatically generated map entry type for the
      * maps field.
      * For maps fields:
@@ -306,6 +303,9 @@ class MessageOptions extends \Google\Protobuf\Internal\Message
      * use a native map in the target language to hold the keys and values.
      * The reflection APIs in such implementations still need to work as
      * if the field is a repeated message field.
+     * NOTE: Do not set the option in .proto files. Always use the maps syntax
+     * instead. The option should only be implicitly set by the proto compiler
+     * parser.
      *
      * Generated from protobuf field <code>optional bool map_entry = 7;</code>
      * @return bool
@@ -326,9 +326,6 @@ class MessageOptions extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * NOTE: Do not set the option in .proto files. Always use the maps syntax
-     * instead. The option should only be implicitly set by the proto compiler
-     * parser.
      * Whether the message is an automatically generated map entry type for the
      * maps field.
      * For maps fields:
@@ -344,6 +341,9 @@ class MessageOptions extends \Google\Protobuf\Internal\Message
      * use a native map in the target language to hold the keys and values.
      * The reflection APIs in such implementations still need to work as
      * if the field is a repeated message field.
+     * NOTE: Do not set the option in .proto files. Always use the maps syntax
+     * instead. The option should only be implicitly set by the proto compiler
+     * parser.
      *
      * Generated from protobuf field <code>optional bool map_entry = 7;</code>
      * @param bool $var
@@ -372,7 +372,7 @@ class MessageOptions extends \Google\Protobuf\Internal\Message
      * The parser stores options it doesn't recognize here. See above.
      *
      * Generated from protobuf field <code>repeated .google.protobuf.UninterpretedOption uninterpreted_option = 999;</code>
-     * @param array<\Google\Protobuf\Internal\UninterpretedOption>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param \Google\Protobuf\Internal\UninterpretedOption[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setUninterpretedOption($var)
